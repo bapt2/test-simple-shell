@@ -11,6 +11,6 @@ int main(void)
 	char *envp[]= {"_direc", NULL};
 
 	if (execve(str[0], str, envp) == -1)
-		perror("Error: oh, un souci avec le Path");
+		perror("Error: Nous avons un souci avec le Path");
 	return (0);
 }
