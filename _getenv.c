@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char *str[] = {"/usr/bin/_direc", "/usr/", NULL};
+	char *str[] = {"_direc", "/usr/", NULL};
 	char *envp[]= {"_direc", NULL};
 
 	if (execve(str[0], str, envp) == -1)
